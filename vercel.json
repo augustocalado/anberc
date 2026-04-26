@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/(assets/.*|favicon.ico|sw.js|logo.png|manifest.json)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
